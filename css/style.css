@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: linear-gradient(to top left, rgb(252, 184, 40), rgb(255, 73, 103));
+}
+.header-img
+{
+    height: 40px;
+}
+.contener{
+    width: 100%;
+    max-width: 2000px;
+    margin: auto;
+}
+.header{
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-between;
+    height: 40px;
+    padding-top: 20px;
+}s
+.header-content{
+    justify-self: center;
+  
+}
+.header-content a{
+    margin: 5px;
+    color: black;
+    text-decoration: none;
+}
+.header-botton{
+    justify-self: end;
+}
+.header-botton a{
+    color: black;
+}
+.bottons{
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.bottons:hover{
+    background-color: rgb(44, 44, 44);
+    color: aliceblue;
+}
+
+.formRegustr{
+    margin: auto;
+    margin-top: 100px;
+    gap: 10px;
+    max-width: 400px;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+}
+.formRegustrInput{
+    padding: 5px;
+
+    text-align: center;
+    border: 2px solid rgb(109, 109, 109);
+}
+.buttons{
+    padding: 5px;
+    background-color: rgb(44, 211, 94);
+ 
+    border: none;
+}
+.eror{
+    color: rgb(248, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+}
+#edr{
+    color: rgb(248, 0, 0);
+    display: none;
+}
+.bloks{
+    box-shadow: 0 15px 25px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 20px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: #ffbb006c;
+    padding: 10px;
+}
+.Photo{
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+.metka{
+    text-align: right;
+    padding: 5px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.Nickname{
+    text-align: center;
+}
