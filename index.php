@@ -25,6 +25,12 @@
           <p><?php echo $row["Description"];?></p>
           <p class="metka"><?php echo $row["metka"];?></p>
       </div>
+      <div id="wrapper">
+    <div id="header">
+      <h1></h1>
+        <p class="nomer"> <br> </p>
+      <img src="">
+    </div>
       <?php
         }}
       ?>
