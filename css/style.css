@@ -36,7 +36,8 @@ body {
 }s
 .header-content{
     justify-self: center;
-  
+    text-transform: uppercase; 
+    color: lightblue;
 }
 .header-content a{
     margin: 5px;
