@@ -12,13 +12,6 @@
 </head>
 <body>
     <div class="contener">
-      <?php
-      include "php/header.php";
-    $qerti = "SELECT * FROM `applications` WHERE 1";
-    if($result = $link->query($qerti)){
-        foreach($result as $row){
-    
-      ?>
       <div class="bloks">
           <h3 class="Nickname">Кличка животного: <?php echo $row["Nickname"];?></h3>
           <img  class="Photo" src="php/<?php echo $row["Photo"];?>" alt="">
