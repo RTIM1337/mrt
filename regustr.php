@@ -19,6 +19,8 @@
           <h3>Регистрация Мясникова Сергея </h3>
           <input class="formRegustrInput" type="text" name="fio" id="" placeholder="ФИО" required>
           <input class="formRegustrInput" type="text" name="logun" placeholder="Логин" id="logun" required>
+          <input class="formRegustrInput" type="text" name="logun" placeholder="Логин" id="logun" required>
+          <input class="formRegustrInput" type="text" name="logun" placeholder="Логин" id="logun" required>
           <input class="formRegustrInput" type="email" name="Email" id="" placeholder="Email" required>
           <input class="formRegustrInput" type="password" name="password" id="passwprd1" placeholder="Пароль" required>
           <input class="formRegustrInput" type="password" name="" id="passwprd2" placeholder="Повторите Пароль" required>
