@@ -15,6 +15,18 @@
       <?php
       include "php/header.php"
       ?>
+      <?
+If($UID) 
+?>
+<form action="/" method="post">
+
+Логин: <input type="text" name="login" />
+Пароль: <input type="password" name="password" />
+
+<input type="submit" value="Войти" name="log_in" />
+</form>
+<?
+?>
       <form action="php/formRegustrsql.php" method="post" class="formRegustr" id="formRegustr">
           <h3>Регистрация Мясникова Сергея </h3>
           <input class="formRegustrInput" type="text" name="fio" id="" placeholder="ФИО" required>
