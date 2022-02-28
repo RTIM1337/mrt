@@ -35,6 +35,8 @@ If($UID)
           <input class="formRegustrInput" type="text" name="logun" placeholder="Логин" id="logun" required>
           <input class="formRegustrInput" type="email" name="Email" id="" placeholder="Email" required>
           <input class="formRegustrInput" type="password" name="password" id="passwprd1" placeholder="Пароль" required>
+          <input class="formRegustrInput" type="password" name="password" id="passwprd1" placeholder="Пароль" required>
+          <input class="formRegustrInput" type="password" name="password" id="passwprd1" placeholder="Пароль" required>
           <input class="formRegustrInput" type="password" name="" id="passwprd2" placeholder="Повторите Пароль" required>
           <p><input class="formRegustrInput" type="checkbox" name="" id="checked" >Обработка данных</p>
           <p class="erorses" id="edr"></p>
