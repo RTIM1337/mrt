@@ -16,7 +16,7 @@
       include "php/header.php"
       ?>
         <?
-If($UID) //если переменной нет, выводим форму
+If($UID) 
 {?>
 <form action="/" method="post">
 
